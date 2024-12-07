@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "1337:1337"
+      - "1336:1336"
+    mem_limit: 1g
